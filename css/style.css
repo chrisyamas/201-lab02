@@ -1,0 +1,53 @@
+
+body {
+  background-color: rgb(181, 236, 156);
+}
+
+#headPic {
+  display: block;
+  margin: 0px auto;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(233, 233, 166);
+  background-color:black;
+  border: 5px dotted rgb(233, 233, 166);
+}
+
+nav {
+  height: 275px;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(233, 233, 166);
+}
+
+figure {
+  float: right;
+}
+
+#bio {
+  background-color:rgb(240, 90, 90);
+  width: 195px;
+}
+
+#edu {
+  background-color:rgb(240, 90, 90);
+  width: 190px;
+}
+
+#job {
+  background-color:rgb(240, 90, 90);
+  width: 196px;
+}
+
+#goals {
+  background-color:rgb(240, 90, 90);
+  width: 284px;
+}
+
+footer {
+  text-align: center;
+  position: sticky; bottom: 0;
+  background-color:beige;
+}
