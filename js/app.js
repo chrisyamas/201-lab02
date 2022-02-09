@@ -3,7 +3,7 @@
 // Initial name request prompt followed my alert greeting visitor with their name
 let user = prompt('Thanks for visiting this page! What is your name?');
 console.log('The user\'s name is ' + user)
-alert('Hello ' + user + ', a game is afoot! Let\'s see how well you know Christopher Yamas, before you get all the facts spoonfed to you...');
+alert('Hello ' + user + ', a game is afoot! Time to find out how well you know Christopher (before getting a look at his About Me page).');
 
 // First About Me guessing question
 function ageGuessQuestion() {
@@ -89,3 +89,5 @@ function remoteWorkQuestion() {
   }
 }
 remoteWorkQuestion()
+
+alert('You completed the guessing game, ' + user + '! All games aside, please enjoy Christopher\'s About Me page.')
