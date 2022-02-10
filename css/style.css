@@ -14,6 +14,7 @@ h1 {
   background-color:black;
   border: 5px dotted rgb(233, 233, 166);
   border-radius: 20px;
+  box-shadow: 4px 4px 14px #111111;
 }
 
 nav {
@@ -21,6 +22,7 @@ nav {
   font-size: 20px;
   text-align: center;
   background-color: rgb(233, 233, 166);
+  box-shadow: 4px 4px 14px #111111;
 }
 
 figure {
@@ -31,30 +33,35 @@ figure {
   background-color:rgb(240, 90, 90);
   width: 200px;
   border-radius: 20px;
+  box-shadow: 4px 4px 14px #111111;
 }
 
 #edu {
   background-color:rgb(240, 90, 90);
   width: 200px;
   border-radius: 20px;
+  box-shadow: 4px 4px 14px #111111;
 }
 
 #job {
   background-color:rgb(240, 90, 90);
   width: 200px;
   border-radius: 20px;
+  box-shadow: 4px 4px 14px #111111;
 }
 
 #goals {
   background-color:rgb(240, 90, 90);
   width: 290px;
   border-radius: 20px;
+  box-shadow: 4px 4px 14px #111111;
 }
 
 #topten {
   background-color:rgb(240, 90, 90);
   width: 325px;
   border-radius: 20px;
+  box-shadow: 4px 4px 14px #111111;
 }
 
 footer {
