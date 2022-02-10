@@ -99,6 +99,7 @@ remoteWorkQuestion()
 
 // Sixth About Me guessing question. Takes in a numeric input by prompting the user to guess a number. Indicates an alert if the guess is "too high" or "too low". It should give the user exactly four opportunities to get the correct answer. After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
 
+function stateNumberQuestion() {
 let stateGuesses = 4;
 let correctStates = 43;
 let guessCorrect = false;
@@ -116,8 +117,12 @@ let guessCorrect = false;
       alert('That guess is too low!');
     }
   }
-  
+}
+stateNumberQuestion();
+
 // Seventh About Me guessing question
+
+function stateQuestion() {
 let stateArr = ['alaska', 'arkansas', 'hawaii', 'nebraska', 'north Dakota', 'oklahoma', 'washington']
 
   for (let i = 0; i < 6; i++) {
@@ -130,6 +135,8 @@ let stateArr = ['alaska', 'arkansas', 'hawaii', 'nebraska', 'north Dakota', 'okl
       alert('Try again!');
     }
   }  
+}
+stateQuestion();
 
 // Final personalized alert message to user with their score  
 alert(`You completed the guessing game, ${user}, congratulations! Before actually reading Christopher\' About Me page, you correctly answered ${count} questions about him!`)
