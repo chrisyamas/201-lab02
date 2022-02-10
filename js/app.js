@@ -1,5 +1,5 @@
 'use strict';
-/*
+
 let count = 0
 
 // Initial name request prompt followed my alert greeting visitor with their name
@@ -115,14 +115,14 @@ let guessCorrect = false;
     } else if (userGuess6 < correctStates) {
       alert('That guess is too low!');
     }
-  } */
+  }
   
 // Seventh About Me guessing question
 let stateArr = ['alaska', 'arkansas', 'hawaii', 'nebraska', 'north Dakota', 'oklahoma', 'washington']
 
   for (let i = 0; i < 6; i++) {
     let userGuess7 = prompt('You get 6 attempts total to answer this one: name one of the 7 U.S. states that Christopher has not visited yet!').toLowerCase();
-    if (stateArr.includes(userGuess7)) {
+    if (stateArr[i] == userGuess7) {
       alert('You got it! He still has not been to ' + userGuess7 + '! Nice job.');
       count++;
       break;
@@ -131,4 +131,5 @@ let stateArr = ['alaska', 'arkansas', 'hawaii', 'nebraska', 'north Dakota', 'okl
     }
   }  
 
-// alert(`You completed the guessing game, ${user}, congratulations! Before actually reading Christopher\' About Me page, you correctly answered ${count} questions about him!`)
+// Final personalized alert message to user with their score  
+alert(`You completed the guessing game, ${user}, congratulations! Before actually reading Christopher\' About Me page, you correctly answered ${count} questions about him!`)
