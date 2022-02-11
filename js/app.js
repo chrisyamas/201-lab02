@@ -105,7 +105,7 @@ let correctStates = 43;
 let guessCorrect = false;
   
   for (let i = 0; i < stateGuesses; i++) {
-    let userGuess6 = prompt('What is the number of different U.S. states that Christopher hasvisited in his life so far?');
+    let userGuess6 = prompt('What is the number of different U.S. states that Christopher has visited in his life so far?');
     // stateQuestion();
     if (userGuess6 == correctStates) {
       alert('Wow! That is correct!! Nice job!!!');
@@ -123,7 +123,7 @@ stateNumberQuestion();
 // Seventh About Me guessing question
 
 function stateQuestion() {
-let stateArr = ['alaska', 'arkansas', 'hawaii', 'nebraska', 'north Dakota', 'oklahoma', 'washington']
+let stateArr = ['alaska', 'arkansas', 'hawaii', 'nebraska', 'north Dakota', 'oklahoma', 'washington'];
 
   for (let i = 0; i < 6; i++) {
     let userGuess7 = prompt('You get 6 attempts total to answer this one: name one of the 7 U.S. states that Christopher has not visited yet!').toLowerCase();
