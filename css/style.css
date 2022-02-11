@@ -8,6 +8,27 @@ body {
   margin: 0px auto;
 }
 
+a:hover {
+  background-color: rgb(70, 20, 2);
+  color: blanchedalmond;
+  border-radius: 5px;
+}
+
+h1:hover {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
+h2:hover {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
+img:hover {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
 h1 {
   text-align: center;
   color: rgb(233, 233, 166);
@@ -15,6 +36,7 @@ h1 {
   border: 5px dotted rgb(233, 233, 166);
   border-radius: 20px;
   box-shadow: 4px 4px 14px #111111;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 nav {
@@ -25,8 +47,23 @@ nav {
   box-shadow: 4px 4px 14px #111111;
 }
 
+h2 {
+  text-align: center;
+}
+
 figure {
   float: right;
+}
+
+figcaption {
+  box-shadow: 4px 4px 14px #111111;
+  border-radius: 10px;
+  text-align: center;
+}
+
+img {
+  box-shadow: 4px 4px 14px #111111;
+  border-radius: 10px;
 }
 
 #bio {
